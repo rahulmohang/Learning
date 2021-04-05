@@ -1,1 +1,1 @@
-print ("My first python program i github")
+print ("My first python program in github")
