@@ -1,0 +1,105 @@
+{
+  "topicFilter": "#",
+  "qos": 0,
+  "messages": [
+    {
+      "format": "json",
+      "topic": "sdk/test/Python",
+      "timestamp": 1627014053164,
+      "payload": {
+        "deviceid": "BSM_G101",
+        "timestamp": "2021-07-23 09:50:52.881532",
+        "datatype": "HeartRate",
+        "value": 81
+      }
+    },
+    {
+      "format": "json",
+      "topic": "sdk/test/Python",
+      "timestamp": 1627014052388,
+      "payload": {
+        "deviceid": "BSM_G101",
+        "timestamp": "2021-07-23 09:50:52.126942",
+        "datatype": "HeartRate",
+        "value": 88
+      }
+    },
+    {
+      "format": "json",
+      "topic": "sdk/test/Python",
+      "timestamp": 1627014052133,
+      "payload": {
+        "deviceid": "BSM_G101",
+        "timestamp": "2021-07-23 09:50:51.882069",
+        "datatype": "SPO2",
+        "value": 90
+      }
+    },
+    {
+      "format": "json",
+      "topic": "sdk/test/Python",
+      "timestamp": 1627014051155,
+      "payload": {
+        "deviceid": "BSM_G101",
+        "timestamp": "2021-07-23 09:50:50.881914",
+        "datatype": "HeartRate",
+        "value": 86
+      }
+    },
+    {
+      "format": "json",
+      "topic": "sdk/test/Python",
+      "timestamp": 1627014050139,
+      "payload": {
+        "deviceid": "BSM_G101",
+        "timestamp": "2021-07-23 09:50:49.881850",
+        "datatype": "HeartRate",
+        "value": 93
+      }
+    },
+    {
+      "format": "json",
+      "topic": "sdk/test/Python",
+      "timestamp": 1627014049177,
+      "payload": {
+        "deviceid": "BSM_G101",
+        "timestamp": "2021-07-23 09:50:48.881802",
+        "datatype": "HeartRate",
+        "value": 82
+      }
+    },
+    {
+      "format": "json",
+      "topic": "sdk/test/Python",
+      "timestamp": 1627014048242,
+      "payload": {
+        "deviceid": "BSM_G101",
+        "timestamp": "2021-07-23 09:50:47.881590",
+        "datatype": "HeartRate",
+        "value": 91
+      }
+    },
+    {
+      "format": "json",
+      "topic": "sdk/test/Python",
+      "timestamp": 1627014047421,
+      "payload": {
+        "deviceid": "BSM_G101",
+        "timestamp": "2021-07-23 09:50:47.148854",
+        "datatype": "HeartRate",
+        "value": 91
+      }
+    },
+    {
+      "format": "json",
+      "topic": "sdk/test/Python",
+      "timestamp": 1627014047177,
+      "payload": {
+        "deviceid": "BSM_G101",
+        "timestamp": "2021-07-23 09:50:46.882044",
+        "datatype": "Temperature",
+        "value": 100.1
+      }
+    }
+  ]
+}

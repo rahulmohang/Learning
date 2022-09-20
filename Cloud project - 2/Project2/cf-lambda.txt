@@ -1,0 +1,21 @@
+"AMIIDLookup": {
+    "Type": "AWS::Lambda::Function",
+    "Properties": {
+        "Handler": "anomalyFn.handler",
+        "Role": {
+            "Fn::GetAtt": [
+                "stockPOI-role-vbilwm1f",
+                "arn:aws:iam::005816983450:role/service-role/stockPOI-role-vbilwm1f"
+            ]
+        },
+        "Code": {
+            "S3Bucket": "lambda-functions",
+            "S3Key": "aAnomalydetectionHandler-954b9dbe-b617-4b9d-b6df-3ca52063eda9.zip"
+        },
+        "Runtime": "python3.9",
+        "Timeout": 25,
+        "TracingConfig": {
+            "Mode": "Active"
+        }
+    }
+}

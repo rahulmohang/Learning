@@ -1,0 +1,15 @@
+## Scope
+This document lists the findings of a review after a clean up job to remove licenses identified by Aliens4Friends. 
+
+## Findings
+1. Those files with a dual license still has identified decisions without the original license text. This could be because the Aliens4Friends job might 
+have checked the 'Apply decision to all future occurrences of this file' in  Clearing decision scope field. 
+
+2. Here, 'https://192.168.80.251/repo/?mod=view-license&upload=458&item=1985603', even the nomos and monk findings are missing. It could be a problem 
+of Fossology. Many files like this. e.g. https://192.168.80.251/repo/?mod=view-license&upload=458&item=2032855. I wonder whether it is because I 
+removed the license, GPL-1.0-or-later sometime back?
+https://192.168.80.251/repo/?mod=view-license&upload=458&item=2039634
+https://192.168.80.251/repo/?mod=view-license&upload=458&item=2035179
+
+3. Here, 'https://192.168.80.251/repo/?mod=view-license&upload=458&item=2013605', two licenses to choose from based on where the file is used. 
+
